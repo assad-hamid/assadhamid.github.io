@@ -1,4 +1,6 @@
-baseURL = "https://assad-hamid.github.io/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Assad Hamid – Academic Portfolio"
 theme = "PaperMod"
+
+disableKinds = ["RSS"]
