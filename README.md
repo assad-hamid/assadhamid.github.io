@@ -1,125 +1,106 @@
-# [The Academic CV That Gets You Hired](https://github.com/HugoBlox/theme-academic-cv)
+<h1 align=center>Hugo PaperMod | <a href="https://adityatelange.github.io/hugo-PaperMod/" rel="nofollow">Demo</a></h1>
 
-[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/academic-cv/start/?utm_source=github&utm_medium=readme)
+<h4 align=center>☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive</h4>
+<br>
 
-<h1 align="center">Build an Academic CV and Resumé That Stands Out</h1>
+> Hugo PaperMod is a theme based on [hugo-paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).<br>
+> The goal of this project is to add more features and customization to the og theme.
+
+**Documentation** can be found here: [**📚 Wiki**](https://github.com/adityatelange/hugo-PaperMod/wiki)
+
+**ExampleSite** can be found here: [**exampleSite**](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite). Demo is built up with [exampleSite](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite) as source.
+
+[![hugo-papermod](https://img.shields.io/badge/Hugo--Themes-@PaperMod-blue)](https://themes.gohugo.io/themes/hugo-papermod/)
+[![Minimum Hugo Version](https://img.shields.io/static/v1?label=min-HUGO-version&message=>=v0.146.0&color=blue&logo=hugo)](https://github.com/gohugoio/hugo/releases/tag/v0.146.0)
+[![Discord](https://img.shields.io/discord/971046860317921340?label=Discord&logo=discord)](https://discord.gg/ahpmTvhVmp)
+[![GitHub](https://img.shields.io/github/license/adityatelange/hugo-PaperMod)](https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE)
+![code-size](https://img.shields.io/github/languages/code-size/adityatelange/hugo-PaperMod)
+[![X (formerly Twitter) URL](https://img.shields.io/badge/-Share%20on%20X-gray?style=flat&logo=x)](https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod)
+
+
+---
 
 <p align="center">
-  <strong>Your unfair advantage in academia and tech.</strong><br/>
-  Showcase your work, boost your citations, and land your dream job at places like <strong>Meta, Google, and Stanford</strong>.
-</p>
-
-<p align="center">
-  <a href="https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme"><b>🚀 Deploy Your Free CV in 60s</b></a>
-  &nbsp;•&nbsp;
-  <a href="https://hugoblox.com/templates/?open=academic-cv&loading=true&utm_source=github&utm_medium=readme">Live Demo</a>
-  &nbsp;•&nbsp;
-  <a href="https://hugoblox.com/pro?utm_source=github&utm_medium=readme"><b>✨ Upgrade to Pro</b></a>
-</p>
-
-<p align="center">
-  Trusted by 250,000+ researchers, students, and educators worldwide.
-</p>
-
-<p align="center">
-  <a href="https://discord.gg/z8wNYzb">
-    <img src="https://img.shields.io/discord/722225264733716590?label=Join%20Discord&style=social" alt="Discord">
-  </a>
-  <a href="https://github.com/HugoBlox/theme-academic-cv">
-    <img src="https://img.shields.io/github/stars/HugoBlox/theme-academic-cv?label=Star%20Academic%20CV&style=social" alt="GitHub Stars">
-  </a>
+  <kbd><img src="https://user-images.githubusercontent.com/21258296/114303440-bfc0ae80-9aeb-11eb-8cfa-48a4bb385a6d.png" alt="Mockup image" title="Mockup"/></kbd>
 </p>
 
 ---
 
-## Your Career Starts Here
+## Features/Mods 💥
 
-The Academic CV template is designed for impact. Whether you're an AI researcher, a recent graduate, or a seasoned professor, this is the last resumé you'll ever need.
+-   Uses Hugo's asset generator with pipelining, fingerprinting, bundling and minification by default.
+-   3 Modes:
+    -   [Regular Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#regular-mode-default-mode)
+    -   [Home-Info Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode)
+    -   [Profile Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode)
+-   Table of Content Generation (newer implementation).
+-   Archive of posts.
+-   Social Icons (home-info and profile-mode).
+-   Social-Media Share buttons on posts.
+-   Menu location indicator.
+-   Multilingual support. (with language selector).
+-   Taxonomies.
+-   Cover image for each post (with Responsive image support).
+-   Light/Dark theme (automatic theme switch a/c to browser theme and theme-switch button).
+-   SEO Friendly.
+-   Multiple Author support.
+-   Search Page with Fuse.js
+-   Other Posts suggestion below a post
+-   Breadcrumb Navigation.
+-   Code Block Copy buttons.
+-   Hugo's Chroma syntax highlighter.
+-   No webpack, nodejs and other dependencies are required to edit the theme.
 
-- **✍️ Showcase Your Expertise:** Easily write content with Markdown, Jupyter, or RStudio. Display your publications, talks, and projects in a stunning, professional layout.
-- **📈 Boost Your Citations:** Automatic BibTeX import and SEO-optimized pages mean your work gets discovered more easily, increasing your research impact.
-- **💼 Land Your Dream Job:** Create a memorable online presence that impresses recruiters from top tech firms and prestigious universities.
-- **🚀 Launch in Minutes:** No coding required. The Hugo Blox Builder lets you customize everything with drag-and-drop sections.
-
-<p align="center">
-  <a href="https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme">
-    <img src="https://img.shields.io/badge/⚡️%20Get%20Your%20CV%20in%2060s-ff4655?style=for-the-badge" alt="Deploy this template" width="400">
-  </a>
-</p>
-
----
-
-## Level Up with Pro Templates
-
-Ready to take your career to the next level? Our Pro templates offer exclusive designs and features to help you stand out even more.
-
-<!-- <p align="center">
-  <img src="" alt="Free vs Pro templates">
-</p>-->
-
-| Feature              | Academic CV (Free)       | Academic CV Pro & Resumé Pro     |
-| -------------------- | ------------------------ | -------------------------------- |
-| **Design**           | Professional & clean     | **Exclusive premium designs**    |
-| **Layouts**          | Standard resumé sections | **Advanced layouts & timelines** |
-| **Call to Action**   | Simple contact link      | **Prominent CTA buttons**        |
-| **First Impression** | Strong                   | **Unforgettable**                |
-
-<br/>
-<p align="center">
-  <a href="https://hugoblox.com/pro?utm_source=github&utm_medium=readme"><b>💎 Get the Pro Pass</b></a> — Includes all Pro templates for a one-time price.<br/>
-  <a href="https://hugoblox.com/templates/academic-cv-pro/start?utm_source=github&utm_medium=readme">✨ Deploy Academic CV Pro</a>
-  &nbsp;•&nbsp;
-  <a href="https://hugoblox.com/templates/resume-pro/start?utm_source=github&utm_medium=readme">📄 Deploy Resumé Pro</a>
-</p>
+Read Wiki For More Details => **[PaperMod - Features](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)**
 
 ---
 
-## What Researchers Say
+## Install/Update 📥
 
-> “Hugo Blox saved me 40+ hours on my lab site. BibTeX integration auto-updates publications — **our citations are up 3×**.”
-> — **Dr. Sarah Yang**, AI Researcher
-
----
-
-## Get Started in Minutes
-
-### Recommended (Fastest)
-
-Deploy your site to GitHub Pages in just 60 seconds with our browser-based starter.
-
-👉 <a href="https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme"><b>Start with the Academic CV Template</b></a>
-
-### Prefer the Command Line?
-
-Use the local quickstart:
-
-```bash
-# 1. Install Hugo Extended → https://docs.hugoblox.com/getting-started/install-hugo/
-# 2. Clone this starter
-git clone https://github.com/HugoBlox/theme-academic-cv my-site
-cd my-site
-
-# 3. Run locally
-pnpm install && hugo server
-```
-
-For more guides, visit our documentation at **https://docs.hugoblox.com/**.
+Read Wiki For More Details => **[PaperMod - Installation](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation)**
 
 ---
 
-## Join the Community
+## FAQs / How To's Guide 🙋
 
-Join thousands of creators in our vibrant community to ask questions, share your work, and help us improve.
-
-- 💬 <a href="https://discord.gg/z8wNYzb">Discord</a>
-- 📚 <a href="https://docs.hugoblox.com/?utm_source=github&utm_medium=readme">Docs & Guides</a>
-- 🐦 <a href="https://x.com/BuildLore">X / Twitter</a>
-- ⭐ <a href="https://github.com/HugoBlox/hugo-blox-builder">Star on GitHub</a>
+Read Wiki For More Details => **[PaperMod-FAQs](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs)**
 
 ---
 
-MIT © 2016-Present [George Cushen](https://georgecushen.com)
+## Social-Icons/Share-Icons 🖼️
 
-<!--START_SECTION:news-->
-<!--Updated at 2025-10-05T01:57:10.421Z-->
-<!--END_SECTION:news-->
+Read Wiki For More Details => **[PaperMod-Icons](https://github.com/adityatelange/hugo-PaperMod/wiki/Icons)**
+
+---
+
+## Release Changelog 📃
+
+Release ChangeLog has info about stuff added: **[Releases](https://github.com/adityatelange/hugo-PaperMod/releases)**
+
+---
+
+## [Pagespeed Insights (100% ?)](https://pagespeed.web.dev/report?url=https://adityatelange.github.io/hugo-PaperMod/) 👀
+
+---
+
+## Support 🫶
+
+-   Star 🌟 this repository.
+-   Help spread the word about PaperMod by sharing it on social media and recommending it to your friends. 🗣️
+-   You can also sponsor 🏅 on [Github Sponsors](https://github.com/sponsors/adityatelange) / [Ko-Fi](https://ko-fi.com/adityatelange).
+
+---
+
+## Special Thanks 🌟
+
+-   [**Highlight.js**](https://github.com/highlightjs/highlight.js)
+-   [**Fuse.js**](https://github.com/krisk/fuse)
+-   [**Feather Icons**](https://github.com/feathericons/feather)
+-   [**Simple Icons**](https://github.com/simple-icons/simple-icons)
+-   **All Contributors and Supporters**
+
+---
+
+## Stargazers over time 📈
+
+[![Stargazers over time](https://starchart.cc/adityatelange/hugo-PaperMod.svg?background=%23ffffff00&axis=%23858585&line=%236b63ff)](https://starchart.cc/adityatelange/hugo-PaperMod)
