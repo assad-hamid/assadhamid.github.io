@@ -1,6 +1,96 @@
-baseURL = "/"
-languageCode = "en-us"
-title = "Assad Hamid – Academic Portfolio"
-theme = "PaperMod"
+# Configuration of Hugo
+# Guide: https://docs.hugoblox.com/tutorial/
+# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
+# Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
-disableKinds = ["RSS"]
+############################
+## Basic Configuration
+############################
+
+baseURL = "https://assadhamid.github.io/"
+title = "Assad Hamid - Academic Portfolio"
+copyright = "© {year} Assad Hamid"
+
+# Set the default language for your site
+languageCode = "en-us"
+
+############################
+## Hugo Build Configuration
+############################
+
+# Hugo v0.112.0 and later allows you to build to a sub-directory
+# Uncomment below if you want to build to a sub-directory: https://docs.hugoblox.com/tutorial/deployment/#customize-the-deployment
+# canonifyURLs = true
+# relativeURLs = true
+
+# Theme - Academic Resume theme is built into Hugo Blox
+# No need to specify theme here as it uses Hugo modules
+
+############################
+## Hugo Modules
+############################
+
+[module]
+  [[module.imports]]
+    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify"
+  [[module.imports]]
+    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5"
+
+############################
+## Language & i18n
+############################
+
+defaultContentLanguage = "en"
+hasCJKLanguage = false
+defaultContentLanguageInSubdir = false
+removePathAccents = true
+
+############################
+## Page Configuration
+############################
+
+[outputs]
+  home = ["HTML", "RSS", "headers", "redirects"]
+  section = ["HTML", "RSS"]
+
+[imaging]
+  resampleFilter = "lanczos"
+  quality = 75
+  anchor = "smart"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    style = "dracula"
+    tabWidth = 2
+
+[privacy]
+  [privacy.youtube]
+    privacyEnhanced = true
+
+[security]
+  enableInlineShortcodes = false
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+    osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$']
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']
