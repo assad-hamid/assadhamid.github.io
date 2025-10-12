@@ -71,7 +71,7 @@ social:
 highlight_name: true
 ---
 
-Assad Hamid is a PhD student in Computer Science at [Your University]. His research focuses on machine learning and artificial intelligence. He is passionate about developing innovative solutions to complex problems using data-driven approaches.
+Assad Hamid is a Master's Student in Transportation Planning and Management at Dalian University of Technology. His research focuses on Pedestrian safety, Intersection Management and Deep Learning. He is passionate about developing innovative solutions to complex problems using data-driven approaches.
 
 Write a longer biography here about your background, research interests, achievements, and goals.
 {style="text-align: justify;"}
