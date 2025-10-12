@@ -8,7 +8,7 @@
 ## Basic Configuration
 ############################
 
-baseURL = "https://assadhamid.github.io/"
+baseURL = "https://assad-hamid.github.io/"
 title = "Assad Hamid - Academic Portfolio"
 copyright = "© {year} Assad Hamid"
 
@@ -90,7 +90,7 @@ removePathAccents = true
     allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
     osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
   [security.funcs]
-    getenv = ['^HUGO_', '^CI$']
+    getenv = ['^HUGO_', '^CI$', '^WC_', '^NETLIFY']
   [security.http]
     methods = ['(?i)GET|POST']
     urls = ['.*']
