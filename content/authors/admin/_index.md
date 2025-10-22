@@ -28,7 +28,7 @@ organizations:
 bio: My research interests include Pedestrian Safety, Intersection Management, and Deep Learning applications in transportation.
 
 # Interests to show in About widget
-interests:
+research interests:
   - Pedestrian Safety
   - Intersection Management
   - Deep Learning
@@ -37,12 +37,12 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: Master's in Transportation Planning and Management
+    - Master's Degree: Transportation Planning and Management
       institution: Dalian University of Technology
-      year: 2024
-    - course: Bachelor's Degree
-      institution: Your Previous University
-      year: 2020
+      year: 2024-2027
+    - Bachelor's Degree: Civil Engineering
+      institution: National University of Sciences and Technology
+      year: 2017-2021
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -83,22 +83,13 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:assadhamid@mail.dlut.edu.cn'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/yourhandle
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap
-    icon_pack: fas
-    link: https://scholar.google.com/citations?user=YOURPROFILE
+    link: 'mailto:assadhamid98@gmail.com'
   - icon: github
     icon_pack: fab
     link: https://github.com/assad-hamid
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/yourprofile/
+    link: https://www.linkedin.com/in/assad-hamid/ 
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
@@ -107,6 +98,5 @@ social:
 highlight_name: true
 ---
 
-Assad Hamid is a Master's Student in Transportation Planning and Management at Dalian University of Technology. His research focuses on Pedestrian safety, Intersection Management and Deep Learning. He is passionate about developing innovative solutions to complex problems using data-driven approaches.
+Passionate about transportation management, traffic safety and human-oriented urban planning using data-driven approaches. Apart from research, I am often found running, hiking, reading books or discussing socio-political issues. The universe is expanding at every moment, how can we remain stagnant.
 
-{style="text-align: justify;"}
