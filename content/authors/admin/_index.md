@@ -28,7 +28,7 @@ organizations:
 bio: My research interests include Pedestrian Safety, Intersection Management, and Deep Learning applications in transportation.
 
 # Interests to show in About widget
-research interests:
+interests:
   - Pedestrian Safety
   - Intersection Management
   - Deep Learning
